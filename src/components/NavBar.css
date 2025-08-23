@@ -1,0 +1,24 @@
+.nav-bar{
+  background: white;
+  width: 100%;
+  height:80px;
+  display: flex;
+  
+}
+
+.name-nav-bar{
+  margin-left: 30px;
+  padding: 8px;
+  padding-right: 2px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#BD611F;
+}
+.dot-nav-bar{
+  padding-top:  8px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}

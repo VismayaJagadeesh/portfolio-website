@@ -1,0 +1,68 @@
+.get-in-touch-box {
+  background: white;
+  border: 0.5px solid #BD611F;
+  border-radius: 10px;
+  padding: 20px;   /* ⬅️ reduced */
+  max-width: 500px; /* ⬅️ reduced */
+  margin: 30px auto;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* ⬅️ softer */
+}
+
+.get-in-touch-heading {
+  font-size: 2rem; /* ⬅️ smaller */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #BD611F;
+}
+
+.get-in-touch-info {
+  text-align: center;
+  font-size: 1rem;  /* ⬅️ slightly smaller */
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* ⬅️ reduced */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;  /* ⬅️ reduced */
+  font-size: 0.95rem; /* ⬅️ smaller */
+  color: #333;
+  padding: 8px 12px; /* ⬅️ reduced */
+  border-radius: 6px;
+  background: #f9f9f9;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px); /* ⬅️ gentler hover */
+  box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+  border: 0.1px solid #BD611F;
+}
+
+.contact-icon {
+  font-size: 1.3rem; /* ⬅️ smaller icons */
+}
+
+/* Platform colors */
+.email {
+  color: #BD611F;
+}
+
+.linkedin {
+  color: #BD611F;
+}
+
+.github {
+  color: #BD611F;
+}

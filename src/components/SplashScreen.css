@@ -1,0 +1,32 @@
+/* SplashScreen.css */
+.splash-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;       /* or black/orange depending on your theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;           /* always on top */
+  transition: opacity 1s ease-out;
+}
+
+.splash-container.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.splash-text {
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #BD611F;
+  animation: pop 1s ease-in-out;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}

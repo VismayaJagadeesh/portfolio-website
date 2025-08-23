@@ -1,0 +1,170 @@
+/* HEADINGS */
+.heading-info{
+  margin-top: 10vh;
+  font-size: clamp(28px, 5vw, 50px);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center; /* center align */
+}
+.heading-name{
+  margin-top: 10vh;
+  font-size: clamp(28px, 5vw, 50px);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center; /* center align */
+  margin-left: 8px;
+}
+
+.heading-name {
+  color: #BD611F;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center horizontally */
+}
+
+/* SUBTEXT */
+.para-line1,
+.para-line2 {
+  font-size: clamp(16px, 2vw, 25px);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;  /* center text */
+}
+
+/* BUTTON */
+.view-projects {
+  width: 90%;
+  max-width: 600px;
+  height: 60px;
+  font-size: clamp(16px, 3vw, 30px);
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #BD611F;
+  margin: 20px auto 0 auto; /* center button */
+  display: block; /* ensure margin auto works */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease-out;
+  margin-top: 88px;
+}
+
+.view-projects:hover {
+  background-color: #a34e17;
+  transform: scale(1.05);
+}
+
+/* ABOUT */
+.about-me {
+  margin-top: 50px;
+  text-align: center; /* center everything inside */
+}
+
+.about-me-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #BD611F;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.about-me-para {
+  max-width: 900px;
+  margin: 0 auto; /* center paragraph block */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+/* BOXES CONTAINER */
+.boxes {
+  display: flex;
+  gap: 50px;                   /* more breathing space */
+  flex-wrap: wrap;
+  justify-content: center;     /* center horizontally */
+  margin-top: 50px;            /* space from content above */
+}
+
+/* INDIVIDUAL BOXES */
+.education-box,
+.tech-stack-box {
+  background-color: #fff;
+  width: clamp(240px, 28vw, 300px);   /* slightly larger */
+  height: clamp(200px, 28vh, 240px);  /* slightly taller */
+  border-radius: 15px;                /* smoother corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;                      /* inner padding */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-out;      /* smooth hover */
+}
+
+/* NICE HOVER EFFECT */
+.education-box:hover,
+.tech-stack-box:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* HEADINGS INSIDE BOXES */
+.education,
+.tech-stack {
+  font-size: clamp(20px, 3.5vw, 28px);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #BD611F;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* STACK / DETAIL TEXTS */
+.stack-1,
+.stack-2,
+.stack-3 {
+  margin: 4px 0;
+  font-size: clamp(14px, 2.2vw, 18px);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.4;
+}
+
+
+/* PROJECTS */
+.projects {
+  margin-top: 50px;
+  text-align: center; /* center all content */
+}
+
+.projects-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #BD611F;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.description {
+  font-size: clamp(14px, 2vw, 18px);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  .heading {
+    flex-direction: column;
+    align-items: center; /* center in mobile */
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .view-projects {
+    width: 95%;
+  }
+}
