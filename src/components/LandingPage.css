@@ -151,24 +151,6 @@
 
 /* MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
-   /* Scroll container */
-  .main-container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-    scroll-behavior: smooth;
-  }
-
-  .main-container section {
-    scroll-snap-align: start;
-    height: 100vh; /* each section fills viewport */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-
   /* Boxes */
   .boxes {
     flex-direction: column;
@@ -228,7 +210,7 @@
     justify-content: center;   /* center the whole line */
     align-items: center;       /* vertical alignment */
     gap: 10px;                 /* space between heading parts */
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 }
 
