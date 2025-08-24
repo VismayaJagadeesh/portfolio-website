@@ -103,7 +103,7 @@
 
 @media (max-width: 768px) {
   .projects-box {
-    max-width: 95%;
+    max-width: 80%;
     padding: 15px;
   }
   .title {

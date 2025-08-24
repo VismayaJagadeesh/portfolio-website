@@ -1,5 +1,3 @@
-
-
 /* HEADINGS */
 .heading-info{
   margin-top: 10vh;
@@ -152,6 +150,10 @@
 
 /* MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
+
+  .heading{
+    width: 100%;
+  }
   /* Boxes */
   .boxes {
     flex-direction: column;
@@ -165,12 +167,12 @@
 
   /* Button */
   .view-projects {
-    width: 90%;
-    margin-top: 10vh;
+    width: 80%;
+    margin-top: 7vh;
   }
 
   .about-me {
-    margin-top: 10vh; /* pushes About Me far down on small screens */
+    margin-top: 7vh; /* pushes About Me far down on small screens */
   }
 
   /* About section */

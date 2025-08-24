@@ -3,7 +3,6 @@
   width: 100%;
   height:80px;
   display: flex;
-  
 }
 
 .name-nav-bar{
@@ -21,4 +20,13 @@
   font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color: black;
+}
+@media (max-width: 768px) {
+  .nav-bar{
+    width: 100%;
+    background: white;
+     height:80px;
+    display: flex;
+  
+  }
 }

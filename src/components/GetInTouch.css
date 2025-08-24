@@ -66,3 +66,36 @@
 .github {
   color: #BD611F;
 }
+
+@media (max-width: 768px) {
+  .get-in-touch-box {
+    width: 70%;          /* almost full width */
+    max-width: 300px;    /* smaller max-width for phones */
+    padding: 15px;       /* reduced padding */
+    margin: 20px auto;   /* smaller top/bottom margin */
+  }
+
+  .get-in-touch-heading {
+    font-size: clamp(18px, 5vw, 24px);  /* scales nicely */
+    margin-bottom: 10px;
+  }
+
+  .get-in-touch-info {
+    font-size: clamp(12px, 4vw, 16px);  /* smaller for phone */
+    margin-bottom: 15px;
+  }
+
+  .contact-list {
+    gap: 8px;          /* tighter spacing */
+  }
+
+  .contact-item {
+    font-size: clamp(10px, 3.5vw, 14px);
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .contact-icon {
+    font-size: 1rem;    /* smaller icons */
+  }
+}
