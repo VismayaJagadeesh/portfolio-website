@@ -3,7 +3,7 @@
   border: 0.5px solid #BD611F;
   border-radius: 10px;
   padding: 20px;   /* ⬅️ reduced */
-  max-width: 500px; /* ⬅️ reduced */
+  max-width: 450px; /* ⬅️ reduced */
   margin: 30px auto;
   width: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* ⬅️ softer */

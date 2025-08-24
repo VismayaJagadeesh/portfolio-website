@@ -19,6 +19,7 @@
 }
 
 .heading {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -165,11 +166,11 @@
   /* Button */
   .view-projects {
     width: 90%;
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
 
   .about-me {
-    margin-top: 20vh; /* pushes About Me far down on small screens */
+    margin-top: 10vh; /* pushes About Me far down on small screens */
   }
 
   /* About section */
@@ -211,6 +212,7 @@
     align-items: center;       /* vertical alignment */
     gap: 10px;                 /* space between heading parts */
     margin-top: 5vh;
+    width: 100%;
   }
 }
 
