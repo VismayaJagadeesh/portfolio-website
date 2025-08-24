@@ -24,7 +24,7 @@ const GetInTouch = () => {
 
           <div className="contact-item">
             <FaGithub className="contact-icon github" />
-            <span>github.com/VismayaJagadeesh05</span>
+            <span>github.com/VismayaJagadeesh</span>
           </div>
         </div>
       </div>
